@@ -1,0 +1,41 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-content {
+    background-color: black;
+    color: #1DB954;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.header-links {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.header-links p {
+    margin: 0; 
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+    background-color: black;
+    color: #1DB954;
+}
+
+.search-song {
+    margin-bottom: 20px;
+}
+#inputs{
+    margin-bottom: 30px;
+}
